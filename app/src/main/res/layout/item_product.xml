@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    android:layout_width="150dp"
+                                    android:layout_height="220dp"
+                                    android:layout_margin="4dp"
+                                    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/product_image"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_image"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:maxLines="2"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="asdasd asd  asd asd asd asd"
+            android:textSize="@dimen/default_text_size"/>
+
+        <TextView
+            android:id="@+id/product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_name"
+            android:layout_centerHorizontal="true"
+            android:maxLines="1"
+            android:text="Rs 1000"
+            android:textSize="@dimen/default_text_size"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

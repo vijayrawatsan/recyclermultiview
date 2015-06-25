@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="default_vertical_margin">16dp</dimen>
+    <dimen name="default_horizontal_margin">16dp</dimen>
+    <dimen name="default_left_margin">16dp</dimen>
+    <dimen name="default_right_margin">16dp</dimen>
+    <dimen name="default_right_margin_for_content_with_icon">72dp</dimen>
+    <dimen name="default_toolbar_height">56dp</dimen>
+    <dimen name="default_title_height">72dp</dimen>
+    <dimen name="default_subtitle_height">48dp</dimen>
+    <dimen name="default_list_item">72dp</dimen>
+    <dimen name="default_space_between_content_area">8dp</dimen>
+
+    <dimen name="default_text_size">16sp</dimen>
+    <dimen name="default_text_top_bottom_padding">8sp</dimen>
+    <integer name="navigationAnimTime">300</integer>
+    <dimen name="default_card_radius">1dp</dimen>
+    <dimen name="default_card_height">200dp</dimen>
+    <dimen name="template_card_title_size">16sp</dimen>
+</resources>
